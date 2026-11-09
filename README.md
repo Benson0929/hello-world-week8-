@@ -1,5 +1,7 @@
 ## Week 8 | Moiré Time redesign — Hourly Generation Study
 
+https://benson0929.github.io/hello-world-week8-/#studies
+
 ### 1. Design Intent
 
 In the original Moiré Time, the lines changed shape with time. I found it hard to tell how much of the hour had passed just by looking at those changes. I wanted the lines to gradually build from sparse to dense so viewers could see time passing as the pattern formed.
