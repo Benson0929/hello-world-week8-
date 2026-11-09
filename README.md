@@ -26,3 +26,12 @@ I asked AI to review the original site with me and help me understand whether th
 ### 4. Open Question
 
 If I hide the Generation percentage, can someone seeing the piece for the first time tell which image is closer to the next hour, 2:15 p.m. or 2:45 p.m., based on line density alone?
+
+
+Class Contract Proposal
+
+What I observed
+Moiré Time resets once an hour, so it’s easy to miss the reset during a short critique. I made a sped-up preview with a timeline people can scrub to see the previous pattern fade out and the next one begin.
+
+What I propose
+If an important change in a project is easy to miss during a critique, include a preview that lets people speed it up, replay it, or jump to that moment. That way, everyone can see what happens before giving feedback.
