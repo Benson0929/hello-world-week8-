@@ -14,7 +14,7 @@ I kept the original geometry and motion of the four modes: Fold, Capsule, Cross,
 
 The main site runs in real time. I also created a sped-up preview so viewers can watch a full cycle in about a minute or scrub through the timeline to see what happens around the hourly reset.
 
-[View the sped-up preview](PREVIEW_URL)
+[View the sped-up preview](https://benson0929.github.io/hello-world-week8-/preview.html#home)
 
 ### 3. My Design Decisions, Credits, and AI Contribution
 
