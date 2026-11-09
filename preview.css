@@ -1,0 +1,26 @@
+/* This stylesheet is exclusive to the preview; production layout is untouched. */
+body.preview-page { display: flex; flex-direction: column; height: 100dvh; }
+.preview-page .site { flex: 1; min-height: 0; height: auto; }
+.preview-toolbar {
+  flex: none; display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px;
+  padding: 14px 24px; border-bottom: 1px solid var(--divider);
+  color: var(--text); font-size: 12px; line-height: 1.5;
+}
+.preview-toolbar p { margin: 0; }
+.preview-toolbar strong { font-weight: 500; letter-spacing: .06em; }
+.preview-note { color: var(--secondary); font-size: 11px; }
+.preview-actions { display: flex; align-items: center; gap: 12px; margin-left: auto; }
+.preview-toolbar button, .preview-toolbar a {
+  color: var(--ink); background: transparent; border: 1px solid var(--divider);
+  padding: 8px 12px; font: inherit; text-decoration: none; cursor: pointer;
+}
+.preview-timeline { flex: 1 1 100%; display: flex; align-items: center; gap: 16px; }
+.preview-timeline input { flex: 1; min-width: 60px; accent-color: var(--ink); cursor: pointer; }
+#preview-status { min-width: 240px; font-variant-numeric: tabular-nums; }
+@media (max-width: 900px), (max-height: 480px), (max-aspect-ratio: 4/5) {
+  body.preview-page { height: auto; min-height: 100dvh; }
+  .preview-toolbar { padding: 12px 20px; }
+  .preview-actions { margin-left: 0; flex-wrap: wrap; }
+  .preview-timeline { flex-wrap: wrap; }
+  #preview-status { flex-basis: 100%; }
+}
